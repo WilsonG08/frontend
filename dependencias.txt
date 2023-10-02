@@ -1,0 +1,50 @@
+Para crear el frontend
+
+1.- npm create vite
+// das en nombre al proyecto
+// Vite
+//javascript
+
+2.- npm install 
+3.- npm run dev
+
+// Instalacion de los modulos de vite
+4.- npm install -D tailwindcss postcss autoprefixer
+5.- npx tailwindcss init -p
+
+actulizas la informacion de content de t.config
+content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+
+// agregas esto App.jsx
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Para el cambio de paginas
+
+6.- npm install react-router-dom
+
+// Para validacion del formulario
+7.- npm install react-hook-form
+
+// para consumir el backend con axios
+8.- npm i axios
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
